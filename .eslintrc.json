@@ -2,7 +2,7 @@
     "root": true,
     "env": {
         "browser": false,
-        "es2021": true,
+        "es6": true,
         "node": true
     },
     "parser": "@typescript-eslint/parser",
@@ -23,7 +23,7 @@
         "plugin:prettier/recommended"
     ],
     "rules": {
-        "sort-keys": "warn",
-        "no-console": "off"
+        "no-console": "off",
+        "@typescript-eslint/explicit-function-return-type": "warn"
     }
 }
