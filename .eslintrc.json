@@ -11,6 +11,9 @@
         "sourceType": "module",
         "ecmaVersion": 2022
     },
+    "ignorePatterns": [
+        "vitest.config.ts"
+    ],
     "plugins": [
         "@typescript-eslint"
     ],
